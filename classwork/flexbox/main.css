@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: darkolivegreen;
+    padding: 20px;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: start;
+    gap: 20px 100px;
+}
+
+.item {
+    background-color:  rgb(222, 222, 164);
+    padding: 10px;
+    border: 5px dashed rgb(140, 163, 99);
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    align-content: center;
+}

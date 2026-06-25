@@ -1,0 +1,35 @@
+.block {
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.inline {
+    background-color: darkcyan;
+    margin: 10px;
+}
+
+.inline-block {
+    background-color: darkolivegreen;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: darkslategrey;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    margin: 50px 40px 30px 20px;
+    border: 10px solid #7276c5;
+    box-sizing: border-box;
+}
+
+.border-box {
+    background-color: #72c5a3;
+    width: 200px;
+    height: 200px;
+}

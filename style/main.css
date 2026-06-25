@@ -1,0 +1,44 @@
+body {
+    background-color: #987069;
+    color: #ffffff;
+}
+
+@font-face {
+  font-family: "mondy";
+  src: url('mondy.woff') format('woff'),
+    url('mondy.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "rose";
+  src: url('rose.woff') format('woff'),
+    url('rose.woff2') format('woff2');
+}
+
+.rose {
+  font-family: "rose";
+}
+
+.mondy {
+    font-family: "mondy";
+}
+
+.banner {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+}

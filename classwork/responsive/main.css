@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+}
+
+.responsive {
+    background-color: burlywood;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(173, 221, 221);
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: rgb(193, 173, 212);
+    }
+    .responsive {
+        background-color: rgb(188, 223, 153);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: rgb(188, 223, 153);
+    }
+    .responsive {
+        background-color: rgb(193, 173, 212);
+    }
+}

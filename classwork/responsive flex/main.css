@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(171, 212, 164);
+}
+
+header, nav, .content, aside, footer {
+    border: 1px solid;
+    padding: 20px;
+}
