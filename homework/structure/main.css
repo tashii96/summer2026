@@ -35,6 +35,10 @@ h1 {
     border-radius: 300px 300px 0 0;
 }
 
+.tail {
+    border-radius: 0 0 300px 300px;
+}
+
 .leftbottom {
     border-radius: 0 0 0 300px;
 }
