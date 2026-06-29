@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: rgb(113, 169, 136);
+    font-size: 500%;
+}
+
+.end {
+    text-align: right;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    height: 250px;
+    width: 20%;
+}
+
+.snake {
+    height: 250px;
+    width: 20%;
+    background-color: rgb(113, 169, 136);
+}
+
+.head {
+    border-radius: 300px 300px 0 0;
+}
+
+.leftbottom {
+    border-radius: 0 0 0 300px;
+}
+
+.rightbottom {
+    border-radius: 0 0 300px 0;
+}
+
+.lefttop {
+    border-radius: 300px 0 0 0;
+}
+
+.righttop {
+    border-radius: 0 300px 0 0;
+}

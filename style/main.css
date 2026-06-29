@@ -37,8 +37,34 @@ body {
     text-align: center;
 }
 
-.nav a {
+.flex {
+    display: flex;
+}
+
+aside {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 15px;
+    max-width: 15%;
+}
+
+li a {
     text-decoration: none;
     font-style: normal;
+    color: #987069;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .brown {
+    background-color: #ffffff;
+} */
+
+.brown a {
     color: #ffffff;
 }
