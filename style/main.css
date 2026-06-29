@@ -24,9 +24,16 @@ body {
 }
 
 .banner {
-    font-size: 80px;
     text-align: center;
+}
+
+.banner a {
+    font-size: 80px;
+    align-content: center;
     margin: 0;
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
 }
 
 .center {
@@ -52,7 +59,7 @@ li a {
     text-decoration: none;
     font-style: normal;
     color: #987069;
-    font-size: 25px;
+    font-size: 150%;
     font-weight: bold;
     letter-spacing: 1px;
 }
