@@ -66,11 +66,14 @@ li a {
 
 ul {
     list-style-type: none;
+    align-content: center;
 }
 
-/* .brown {
-    background-color: #ffffff;
-} */
+.brown {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
 
 .brown a {
     color: #ffffff;

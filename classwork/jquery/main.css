@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(145, 219, 166);
+}
+
+.buttons {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.container {
+    background-color: rgb(160, 200, 168);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container.dark {
+    background-color: rgb(88, 103, 88);
+}
+
+.box {
+    background-color: rgb(160, 209, 201);
+    width: 100px;
+    height: 100px;
+    animation: spin 5s infinite linear;
+    animation-play-state: paused;
+}
+
+.box.dark {
+    background-color: rgb(58, 70, 69);
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+
+.box.reset {
+    animation: spin 0;
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.penis {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 5%;
+    display: none;
+}
+
+.penis.show {
+    display: inline;
+}

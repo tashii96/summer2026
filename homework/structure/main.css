@@ -23,6 +23,8 @@ h1 {
 .column {
     height: 250px;
     width: 20%;
+    color: rgb(113, 169, 136);
+    font-size: 120%;
 }
 
 .snake {
